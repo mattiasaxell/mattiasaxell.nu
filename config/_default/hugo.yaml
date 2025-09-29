@@ -2,7 +2,7 @@
 ## CHANGE THESE
 ############################
 
-baseURL: "https://mattiasaxell.github.io/mattiasaxell.nu"
+baseURL: "https://mattiasaxell.nu"
 title: mattiasaxell.nu
 
 ############################
@@ -21,3 +21,8 @@ enableEmoji: true
 disableKinds: ["taxonomy", "term"]
 languageCode: "en-us"
 enableRobotsTXT: true
+markup:
+  goldmark:
+    renderHooks:
+      image:
+        enableDefault: true
