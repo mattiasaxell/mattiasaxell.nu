@@ -1,4 +1,4 @@
-module github.com/chrede88/L1nkrTemplate
+module github.com/mattiasaxell/mattiasaxell.nu
 
 go 1.25.1
 
